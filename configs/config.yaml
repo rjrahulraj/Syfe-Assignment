@@ -1,0 +1,19 @@
+database:
+  host: localhost
+  port: 5432
+  user: rjrahulraj
+  password: admin123
+  name: mydatabase
+
+server:
+  port: 8080
+  read_timeout: 15s
+  write_timeout: 15s
+
+log:
+  level: info
+  format: json
+
+features:
+  enable_feature_x: true
+  enable_feature_y: false
